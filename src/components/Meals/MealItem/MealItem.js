@@ -1,5 +1,5 @@
 import classes from './MealItem.module.css'
-
+import MealIteamForm from './MealItemForm';
 
 const MealIteam = props =>
 {
@@ -12,7 +12,7 @@ const MealIteam = props =>
         </div>
 
         <div>
-
+            <MealIteamForm/>
         </div>
     </lic>
 }
